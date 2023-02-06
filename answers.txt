@@ -1,0 +1,17 @@
+1. A protocol is a procedure or system of rules that defines how data is exchanged between computers. For devices to communicate smoothly there needs to be a set of rules in place that allows them to both used an agreed format. The set of rules that defines the format is called a protocol.
+
+2. HTTP is an application-layer protocol that sits on TCP/IP protocols. This means that each HTTP request or response is sent inside an IP packet. Other protocols can sit on TCP/IP, such as FTP for uploading files, or SMTP for email.
+
+3. If a request is successful the response will be one of the 200 codes such as 200 OK, 201 Created or 202 Accepted.
+
+4. A stateless protocol doesn't keep track of the client status so each request is independent of the other. HTTP is a stateless prototcol. Therefore, any requests to the server have to be specific and not relate to any previous requests.
+
+5. The following are valid MIME types:
+
+image/jpg
+text/javascript
+text/calendar
+text/jsx
+image/psd
+
+6. The status message you'd expect from a server if it does not allow access to a specific resource would be 401 Unauthorized.
