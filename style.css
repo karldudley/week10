@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    color: blue
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #af1668;
+}
+
+hr {
+    border: 1px dashed #4CAF50;
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.bio > .info {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.bio > img {
+    border-radius: 100px;
+    border-style: ridge;
+}
+
+.contact-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact li {
+    list-style-type: square;
+}
+
+.skills li {
+    list-style-type: circle;
+}
+
+.edu-work {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.school, .job {
+    margin: 10px 10px;
+    padding: 5px;
+    border: 2px dashed #af1668;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.app {
+    margin: 10px 10px;
+    padding: 5px;
+    border: 2px dashed #af1668;
+}
+
+.projects img {
+    width: 75%;
+    height: 65%;
+    object-fit: scale-down;
+}
